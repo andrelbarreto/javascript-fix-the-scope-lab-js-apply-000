@@ -25,4 +25,5 @@ return 'Funky!'
   }
 }
 
-console.log 
+console.log(funkyFunction()())
+
