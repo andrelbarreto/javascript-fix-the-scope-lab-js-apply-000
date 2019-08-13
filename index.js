@@ -19,11 +19,11 @@ function add2(n) {
 }
 
 
-var theFunk = function funkyFunction() {
+var funkyFunction = function funkyFunction() {
 return function theFunk() {
 return 'FUNKY!'
   }
 }
 
-console.log(theFunk()())
+console.log(funkyFunction()())
 
