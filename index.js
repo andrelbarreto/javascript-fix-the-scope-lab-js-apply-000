@@ -23,6 +23,7 @@ var funkyFunction = function outerfunk() {
 return function innerfunk() {
 return 'Funky!'
   }
+  
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
